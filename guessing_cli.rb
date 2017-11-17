@@ -2,7 +2,7 @@ require 'pry'
 
 def run_guessing_game
   user_input = ""
-  while user_input != exit do
+  while user_input != "exit" do
     puts "Guess a number between 1 and 6."
     user_input = gets.chomp
     user_number = user_input.to_i
